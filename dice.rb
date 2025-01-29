@@ -12,14 +12,6 @@ get("/") do
   erb(:elephant)
 end
 
-get ("/zebra") do
-  "We must add a route for each path we want to support"
-end
-
-get("/turtle") do
-  "Will you show up for me"
-end
-
 get("/dice/2/6") do
   first_die = rand(1..6)
   second_die = rand(1..6)
